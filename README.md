@@ -14,9 +14,10 @@ Steps to Deploy and Run the Project:
 		python -m pip install --upgrade pip
 4. Install requirements
 
-    pip install -r requirements.txt
+	    	pip install -r requirements.txt
 5. Install SQLite
-    pip install SQLAlchemy Flask-SQLAlchemy
+
+    		pip install SQLAlchemy Flask-SQLAlchemy
  
 6. Run App
     python app.py
