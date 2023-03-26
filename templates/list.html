@@ -1,0 +1,25 @@
+<body>
+
+    <table border=1>
+        <thead>
+            <td>SID</td>
+            <td>Name</td>
+            <td>Last Name</td>
+            <td>DOB</td>
+            <td>amount</td>
+        </thead>
+
+        {% for row in rows %}
+        <tr>
+            <td>{{row["sid"]}}</td>
+            <td>{{row["first"]}}</td>
+            <td> {{ row["last"]}}</td>
+            <td>{{row['dob']}}</td>
+            <td>{{row['amount']}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+    <a href="/">Go back to home page</a>
+
+</body>
