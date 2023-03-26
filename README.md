@@ -21,4 +21,5 @@ Steps to Deploy and Run the Project:
 		pip install SQLAlchemy Flask-SQLAlchemy
  
 6. Run App
-    python app.py
+
+    	python app.py
